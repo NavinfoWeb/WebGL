@@ -269,20 +269,7 @@ div.strawman { color: #400 }
 pre.strawman { color: #400 }
 
 .normref { color: red }	
-.informref { color: green }	
-
-
-/* ToC not indented, but font style shows hierarchy */
-//ul.toc {margin: 1em 0; padding: 0; font-weight: bold}
-//ul.toc ul {margin: 0; padding: 0; font-weight: normal}
-//ul.toc ul ul {margin: 0 /*0 0 2em*/; font-style: italic}
-//ul.toc ul ul ul {margin: 0}
-//ul.toc li {margin: 0.6em 0; padding: 0}
-//ul.toc li li {margin: 0}
-/*
-ul.toc li li li, ul.toc li li li ul {margin-left: 0; display: inline}
-ul.toc li li li ul, ul.toc li li li ul li {margin-left: 0; display: inline}
-*/
+.informref { color: green }
 
 ul li+li {margin-top: 1em; gborder: 1px solid red;}
 
@@ -588,7 +575,7 @@ table {
     border-style:solid;
     border-spacing:2px;
     border-collapse:collapse;
-    padding:3;
+    padding:3px;
 }
 
 th, td { /* ns 4 */
